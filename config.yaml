@@ -60,3 +60,189 @@ services:
     enabled: true
     provider: google_analytics
     tracking_id: UA-123456789-1
+# Sample configuration file to simulate a risky change
+# This file is designed to increase config_changes and num_changed_lines
+services:
+  auth:
+    enabled: true
+    endpoint: https://api.example.com/auth
+    timeout: 30
+    max_retries: 3
+    database:
+      host: localhost
+      port: 5432
+      name: auth_db
+      user: admin
+      password: secure_password_123
+  payment:
+    enabled: true
+    endpoint: https://api.example.com/payment
+    timeout: 20
+    max_retries: 5
+    gateway: stripe
+    api_key: sk_test_abcdefghijklmnopqrstuvwxyz
+  billing:
+    enabled: true
+    endpoint: https://api.example.com/billing
+    timeout: 25
+    max_retries: 4
+    currency: USD
+    tax_rate: 0.08
+  logging:
+    level: debug
+    output: /var/log/app.log
+    format: json
+  monitoring:
+    enabled: true
+    endpoint: https://monitoring.example.com
+    interval: 60
+    metrics:
+      - error_rate
+      - latency
+      - throughput
+  cache:
+    enabled: true
+    type: redis
+    host: localhost
+    port: 6379
+    ttl: 3600
+  queue:
+    enabled: true
+    type: rabbitmq
+    host: localhost
+    port: 5672
+    queue_name: tasks
+  notification:
+    enabled: true
+    type: email
+    smtp_server: smtp.example.com
+    smtp_port: 587
+    sender: no-reply@example.com
+  analytics:
+    enabled: true
+    provider: google_analytics
+    tracking_id: UA-123456789-1
+# Sample configuration file to simulate a risky change
+# This file is designed to increase config_changes and num_changed_lines
+services:
+  auth:
+    enabled: true
+    endpoint: https://api.example.com/auth
+    timeout: 30
+    max_retries: 3
+    database:
+      host: localhost
+      port: 5432
+      name: auth_db
+      user: admin
+      password: secure_password_123
+  payment:
+    enabled: true
+    endpoint: https://api.example.com/payment
+    timeout: 20
+    max_retries: 5
+    gateway: stripe
+    api_key: sk_test_abcdefghijklmnopqrstuvwxyz
+  billing:
+    enabled: true
+    endpoint: https://api.example.com/billing
+    timeout: 25
+    max_retries: 4
+    currency: USD
+    tax_rate: 0.08
+  logging:
+    level: debug
+    output: /var/log/app.log
+    format: json
+  monitoring:
+    enabled: true
+    endpoint: https://monitoring.example.com
+    interval: 60
+    metrics:
+      - error_rate
+      - latency
+      - throughput
+  cache:
+    enabled: true
+    type: redis
+    host: localhost
+    port: 6379
+    ttl: 3600
+  queue:
+    enabled: true
+    type: rabbitmq
+    host: localhost
+    port: 5672
+    queue_name: tasks
+  notification:
+    enabled: true
+    type: email
+    smtp_server: smtp.example.com
+    smtp_port: 587
+    sender: no-reply@example.com
+  analytics:
+    enabled: true
+    provider: google_analytics
+    tracking_id: UA-123456789-1
+# Sample configuration file to simulate a risky change
+# This file is designed to increase config_changes and num_changed_lines
+services:
+  auth:
+    enabled: true
+    endpoint: https://api.example.com/auth
+    timeout: 30
+    max_retries: 3
+    database:
+      host: localhost
+      port: 5432
+      name: auth_db
+      user: admin
+      password: secure_password_123
+  payment:
+    enabled: true
+    endpoint: https://api.example.com/payment
+    timeout: 20
+    max_retries: 5
+    gateway: stripe
+    api_key: sk_test_abcdefghijklmnopqrstuvwxyz
+  billing:
+    enabled: true
+    endpoint: https://api.example.com/billing
+    timeout: 25
+    max_retries: 4
+    currency: USD
+    tax_rate: 0.08
+  logging:
+    level: debug
+    output: /var/log/app.log
+    format: json
+  monitoring:
+    enabled: true
+    endpoint: https://monitoring.example.com
+    interval: 60
+    metrics:
+      - error_rate
+      - latency
+      - throughput
+  cache:
+    enabled: true
+    type: redis
+    host: localhost
+    port: 6379
+    ttl: 3600
+  queue:
+    enabled: true
+    type: rabbitmq
+    host: localhost
+    port: 5672
+    queue_name: tasks
+  notification:
+    enabled: true
+    type: email
+    smtp_server: smtp.example.com
+    smtp_port: 587
+    sender: no-reply@example.com
+  analytics:
+    enabled: true
+    provider: google_analytics
+    tracking_id: UA-123456789-1
